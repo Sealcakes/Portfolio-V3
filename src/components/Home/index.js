@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { useState } from 'react';
+import Circles from '../Stars/index';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -11,6 +12,7 @@ const Home = () => {
 
     return (
         <div className="container home-page">
+            <Circles />
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
