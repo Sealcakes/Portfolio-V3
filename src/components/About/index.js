@@ -1,6 +1,6 @@
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters/index';
-import Circles from '../Stars/index';
+import Stars from '../Stars/index';
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faHtml5, faCss3, faJsSquare, faNodeJs, faGitAlt } from '@fortawesome/free-brands-svg-icons';
@@ -18,7 +18,7 @@ const About = () => {
     return (
         <>
             <div className='container about-page'>
-                <Circles />
+                <Stars />
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters

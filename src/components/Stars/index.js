@@ -1,48 +1,48 @@
 import React, { useState, useEffect } from 'react';
 import './index.scss';
 
-const Circles = () => {
-  const [circlesEven, setCirclesEven] = useState([]);
-  const [circlesOdd, setCirclesOdd] = useState([]);
+const Stars = () => {
+  const [starsEven, setStarsEven] = useState([]);
+  const [starsOdd, setStarsOdd] = useState([]);
 
   useEffect(() => {
-    const newCirclesOdd = [];
-    const newCirclesEven = [];
+    const newStarsOdd = [];
+    const newStarsEven = [];
     for (let i = 0; i < 50; i++) {
-      const circle = {
+      const star = {
         id: i,
         x: Math.random() * window.innerWidth,
         y: Math.random() * window.innerHeight,
       };
-      if (circle.id % 2) {
-        newCirclesEven.push(circle);
+      if (star.id % 2) {
+        newStarsEven.push(star);
       } else {
-        newCirclesOdd.push(circle);
+        newStarsOdd.push(star);
       }
       
     }
-    setCirclesEven(newCirclesEven);
-    setCirclesOdd(newCirclesOdd);
+    setStarsEven(newStarsEven);
+    setStarsOdd(newStarsOdd);
   }, []);
 
   return (
     <div>
-      {circlesEven.map((evenCircle) => (
+      {starsEven.map((evenStar) => (
         <div
-          key={evenCircle.id}
-          className="even-circles"
-          style={{ top: evenCircle.y, left: evenCircle.x }}
+          key={evenStar.id}
+          className="even-stars"
+          style={{ top: evenStar.y, left: evenStar.x }}
         />
       ))}
-      {circlesOdd.map((oddCircle) => (
+      {starsOdd.map((oddStar) => (
         <div
-          key={oddCircle.id}
-          className="odd-circles"
-          style={{ top: oddCircle.y, left: oddCircle.x }}
+          key={oddStar.id}
+          className="odd-stars"
+          style={{ top: oddStar.y, left: oddStar.x }}
         />
       ))}
     </div>
   );
 };
 
-export default Circles;
+export default Stars;
