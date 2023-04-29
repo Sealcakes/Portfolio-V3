@@ -1,41 +1,104 @@
-.even-stars {
-    width: 3px;
-    height: 3px;
+.group1-stars {
+    width: 2px;
+    height: 2px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    animation: flash 4s infinite;
+    animation: flash 2s infinite;
   }
   
-  @keyframes flash {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+@keyframes flash {
+  0% {
+    opacity: 0;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-  .odd-stars {
-    width: 5px;
-    height: 5px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    animation: flash 3s infinite;
+.group2-stars {
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  animation: flash 3s infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
   }
-  
-  @keyframes flash {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+  50% {
+    opacity: 1;
   }
+  100% {
+    opacity: 0;
+  }
+}
+
+.group3-stars {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  animation: flash 3s infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.group4-stars {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  animation: flash 4s infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.group5-stars {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  animation: flash 2s infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
