@@ -12,6 +12,12 @@
             "title": "Mixing Pot",
             "description": "HTML, CSS, BULMA, JAVASCRIPT, 3RD PARTY APIS",
             "url": "https://three-amigos-recipes.github.io/three-amigos-recipes/"
+        },
+        {
+            "coverGif": "/portfolio/assets/mixingpot.gif",
+            "title": "Mixing Pot",
+            "description": "HTML, CSS, BULMA, JAVASCRIPT, 3RD PARTY APIS",
+            "url": "https://three-amigos-recipes.github.io/three-amigos-recipes/"
         }
     ]
 }

@@ -24,16 +24,16 @@ const Portfolio = () => {
                             <div className='image-box' key={idx}>
                                 <img
                                   src={port.coverGif}
-                                  className='portfolio-image'
+                                  className='card-image'
                                   alt='portfolio'
                                 />
                                 <div className='portfolio-content'>
-                                    <p className='title'>{port.title}</p>
-                                    <h4 className='description'>{port.description}</h4>
-                                    <button className='btn'
+                                    <h3 className='card-title'>{port.title}</h3>
+                                    <h4 className='card-description'>{port.description}</h4>
+                                    <button className='card-btn'
                                       onClick={() => window.open(port.url)}
                                     >View Page</button>
-                                    <button className='btn'
+                                    <button className='card-btn'
                                       onClick={() => window.open(port.code)}
                                     >View Code</button>
                                 </div>
