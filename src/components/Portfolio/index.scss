@@ -15,30 +15,11 @@
         display: flex;
         gap: 15px;
         padding-bottom: 100px;
+        width: 80%;
     }
 
     .image-box {
         position: relative;
-        flex: 1 1 20%;
-        height: 400px;
-
-        .portfolio-image {
-            border-radius: 10px;
-            z-index: 2;
-        }
-
-        .portfolio-content {
-            position: absolute;
-            width: 93.5%;
-            z-index: 3;
-            padding: 10px 20px;
-            transition: cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: linear-gradient(
-                180deg,
-                rgba(0, 0, 0, 0.2) 0,
-                rgba(0, 0, 0, 1)
-            );
-            bottom: 103px;
-        }
     }
+
 }

@@ -42,7 +42,7 @@ const Stars = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {starsGroup1.map((group1) => (
         <div
           key={group1.id}
@@ -78,7 +78,7 @@ const Stars = () => {
           style={{ top: group5.y, left: group5.x }}
         />
       ))}
-    </div>
+    </>
   );
 };
 
