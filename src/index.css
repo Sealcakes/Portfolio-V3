@@ -7,6 +7,7 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background-image: url('./assets/images/spacebackground.jpg');
+  background-size: cover;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
