@@ -17,14 +17,14 @@
         width: auto;
         justify-content: center;
         gap: 20px;
-        margin-left: -250px;
+        margin-left: 0px;
         
         .image-box {
           position: relative;
           overflow: hidden;
           
           .card-image {
-            width: 100%;
+            width: 640px;
             height: 100%;
             transition: opacity 0.3s ease-in-out;
             
@@ -47,21 +47,28 @@
             transition: opacity 0.3s ease-in-out;
             
             h3.card-title {
-              font-size: 1.5rem;
-              margin-bottom: 10px;
               color: white;
+              margin: 0;
               font-size: 34px;
               text-align: center;
             }
             
             h4.card-description {
               font-size: 1rem;
-              margin-bottom: 20px;
+              margin: 0;
               color: white;
               font-size: 20px;
               text-align: center;
             }
             
+            h5.card-tech-used {
+              font-size: 1rem;
+              margin-bottom: 0px;
+              color: white;
+              font-size: 20px;
+              text-align: center;
+            }
+
             .card-btn {
               display: inline-block;
               padding: 10px 20px;
@@ -71,7 +78,7 @@
               background-color: #333;
               cursor: pointer;
               transition: background-color 0.3s ease-in-out;
-              margin-top: 10px;
+              margin-top: 5px;
               
               &:hover {
                 background-color: #555;

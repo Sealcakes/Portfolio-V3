@@ -3,21 +3,26 @@
         {
             "coverGif": "/portfolio/assets/mixingpot.gif",
             "title": "Mixing Pot",
-            "description": "HTML, CSS, BULMA, JAVASCRIPT, 3RD PARTY APIS",
+            "description": "Ingredient based recipe search",
+            "techUsed": "HTML, CSS, Bulma, JavaScript, 3rd Party APIs",
             "url": "https://three-amigos-recipes.github.io/three-amigos-recipes/",
             "code": "https://github.com/three-amigos-recipes/three-amigos-recipes"
         },
         {
-            "coverGif": "/portfolio/assets/mixingpot.gif",
-            "title": "Mixing Pot",
-            "description": "HTML, CSS, BULMA, JAVASCRIPT, 3RD PARTY APIS",
-            "url": "https://three-amigos-recipes.github.io/three-amigos-recipes/"
+            "coverGif": "/portfolio/assets/ParkingBuddy.gif",
+            "title": "ParkingBuddy",
+            "description": "Apartment Parking Administration Tool for handling Residents and Guests",
+            "techUsed": "Handlebars, Express, MySql, Bootstrap CSS, JavaScript",
+            "url": "https://serene-cove-30368.herokuapp.com/",
+            "code": "https://github.com/SMU-CodingBootcamp-Project2/ParkingBuddy"
         },
         {
-            "coverGif": "/portfolio/assets/mixingpot.gif",
-            "title": "Mixing Pot",
-            "description": "HTML, CSS, BULMA, JAVASCRIPT, 3RD PARTY APIS",
-            "url": "https://three-amigos-recipes.github.io/three-amigos-recipes/"
+            "coverGif": "/portfolio/assets/socialnetworkapi.png",
+            "title": "Social Network API",
+            "description": "Back-end API for a Social Network",
+            "techUsed": "MongoDB, Express",
+            "url": "https://drive.google.com/file/d/1hgi0bG6D0s801b79fj0pelYg5XHtMcsl/view",
+            "code": "https://github.com/Sealcakes/Social-Network-API"
         }
     ]
 }
