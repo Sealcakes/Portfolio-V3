@@ -10,6 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "animate.css": "^4.1.1",
+    "gh-pages": "^5.0.0",
     "gsap-trial": "^3.11.5",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -42,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
