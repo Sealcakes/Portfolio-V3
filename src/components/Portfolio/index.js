@@ -3,7 +3,36 @@ import './index.scss';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Stars from '../Stars';
-import portfolioData from '../../data/portfolio.json';
+import mixingpot from '../../assets/images/mixingpot.gif';
+import parkingbuddy from '../../assets/images/ParkingBuddy.gif';
+import socialnetwork from '../../assets/images/socialnetworkapi.png';
+
+const portfolioData = [
+    {
+        coverGif: mixingpot,
+        title: "Mixing Pot",
+        description: "Ingredient based recipe search",
+        techUsed: "HTML, CSS, Bulma, JavaScript, 3rd Party APIs",
+        url: "https://three-amigos-recipes.github.io/three-amigos-recipes/",
+        code: "https://github.com/three-amigos-recipes/three-amigos-recipes"
+    },
+    {
+        coverGif: parkingbuddy,
+        title: "ParkingBuddy",
+        description: "Apartment Parking Administration Tool for handling Residents and Guests",
+        techUsed: "Handlebars, Express, MySql, Bootstrap CSS, JavaScript",
+        url: "https://serene-cove-30368.herokuapp.com/",
+        code: "https://github.com/SMU-CodingBootcamp-Project2/ParkingBuddy"
+    },
+    {
+        coverGif: socialnetwork,
+        title: "Social Network API",
+        description: "Back-end API for a Social Network",
+        techUsed: "MongoDB, Express",
+        url: "https://drive.google.com/file/d/1hgi0bG6D0s801b79fj0pelYg5XHtMcsl/view",
+        code: "https://github.com/Sealcakes/Social-Network-API"
+    }
+]
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -58,7 +87,7 @@ const Portfolio = () => {
                         idx={15}
                         />
                     </h1>
-                    <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                    <div>{renderPortfolio(portfolioData)}</div>
                 </div>
             </div>
             <Loader type='pacman' />

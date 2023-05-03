@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "coverGif": "../public/portfolio/assets/mixingpot.gif",
+            "coverGif": "/src/assets/images/mixingpot.gif",
             "title": "Mixing Pot",
             "description": "Ingredient based recipe search",
             "techUsed": "HTML, CSS, Bulma, JavaScript, 3rd Party APIs",
